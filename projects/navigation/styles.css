@@ -1,0 +1,18 @@
+body {
+	font-family: 'Rajdhani', sans-serif;
+	background-color: lightpink;
+}
+
+h1 {
+	font-size: 15pt;
+}
+
+img {
+	max-width: 600px;
+	width: 100%
+	height: auto;
+}
+
+.website {
+	padding: 30px;
+}
