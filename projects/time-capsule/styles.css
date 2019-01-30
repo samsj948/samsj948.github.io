@@ -35,11 +35,11 @@ transition: 1s;
 
 /*ANIMATION*/
 .first {
- -webkit-animation: bannermove 35s linear infinite;
-    -moz-animation: bannermove 35s linear infinite;
-     -ms-animation: bannermove 35s linear infinite;
-      -o-animation: bannermove 35s linear infinite;
-         animation: bannermove 35s linear infinite;
+ -webkit-animation: bannermove 55s linear infinite;
+    -moz-animation: bannermove 55s linear infinite;
+     -ms-animation: bannermove 55s linear infinite;
+      -o-animation: bannermove 55s linear infinite;
+         animation: bannermove 55s linear infinite;
 }
  
 @keyframes "bannermove" {
