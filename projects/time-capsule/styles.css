@@ -30,16 +30,16 @@ margin-bottom: 20px;
 
 .photobanner img:hover{
 opacity:0;
-transition: 1s;
+transition: 2.1s;
 }
 
 /*ANIMATION*/
 .first {
- -webkit-animation: bannermove 55s linear infinite;
-    -moz-animation: bannermove 55s linear infinite;
-     -ms-animation: bannermove 55s linear infinite;
-      -o-animation: bannermove 55s linear infinite;
-         animation: bannermove 55s linear infinite;
+ -webkit-animation: bannermove 120s linear infinite;
+    -moz-animation: bannermove 120s linear infinite;
+     -ms-animation: bannermove 120s linear infinite;
+      -o-animation: bannermove 120s linear infinite;
+         animation: bannermove 120s linear infinite;
 }
  
 @keyframes "bannermove" {
