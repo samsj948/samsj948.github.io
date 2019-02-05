@@ -1,18 +1,44 @@
 body {
 	font-family: 'Rajdhani', sans-serif;
-	background-color: lightpink;
+	background-color: black;
 }
 
 h1 {
-	font-size: 15pt;
+	font-size: 50pt;
+	margin-top: 50px;
+}
+
+h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+h1 a:hover{
+	color: black;
+	background-color: lightpink;
 }
 
 img {
-	max-width: 600px;
-	width: 100%
-	height: auto;
+	width: 600px;
+	height: 350px;
+	object-fit: cover;
+	padding: 10px;
 }
 
 .website {
 	padding: 30px;
+}
+
+p {
+	max-width: 450px;
+	width: auto;
+	color: lightpink;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-left: 635px;
+	margin-right: auto;
+}
+
+.site {
+	margin-bottom: 130px;
 }
