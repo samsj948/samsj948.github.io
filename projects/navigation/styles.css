@@ -1,6 +1,7 @@
 body {
 	font-family: 'Rajdhani', sans-serif;
 	background-color: black;
+	margin-top: 60px;
 }
 
 h1 {
@@ -40,5 +41,5 @@ p {
 }
 
 .site {
-	margin-bottom: 130px;
+	margin-bottom: 260px;
 }
