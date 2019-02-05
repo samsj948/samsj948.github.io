@@ -1,0 +1,88 @@
+body{ 
+	font-family: 'EB Garamond', serif;
+	background: #FEFBE7;
+	color: #0C294C;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 40px;
+	font-size: 12pt;
+}
+
+/*IMAGES*/
+img {
+width: auto;
+height: 500px;
+}
+
+
+/*HEADINGS*/
+.Food{
+	font-family: 'Inknut Antiqua', serif;
+	line-height: 10px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+/*MUSIC*/
+.rock {
+	font-family: 'EB Garamond', serif;
+	font-style: bold;
+	color: pink;
+}
+
+.psychedelic-rock{
+	letter-spacing: 3px;
+	color: purple;
+}
+
+.folk-punk{
+	font-style: italic;
+	color: brown;
+}
+
+.surf-rock{
+	color: gold;
+}
+
+.alternative{
+	color: #89B64B;
+}
+
+.blue-eyed-soul {
+	text-decoration: underline;
+	color: orange;
+}
+
+
+/*LINKS*/
+a {
+	text-decoration: none;
+	color: navy;
+	font-family: 'Inknut Antiqua', serif;
+}
+
+a hover{
+
+}
