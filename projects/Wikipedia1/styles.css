@@ -1,15 +1,16 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
+	background-color: #D1D1D1;
+	cursor: crosshair;
 }
 
 .blue {
-	overflow: hidden;
 	position: fixed;
-	top: 0;
-	width: 100%;
+	width: 98%;
 	background-color: #1954D0;
-	margin-left: -20px;
-	margin-right: -20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -140px;
 }
 
 h1 {
@@ -27,13 +28,16 @@ h1 {
 }
 
 .text {
+	margin-top: 150px;
 	margin-left: 170px;
-	margin-top: 135px;
+	margin-right: auto;
 	margin-bottom: 105px;
 	height: 100%;
-	margin-right: 70px;;
 	font-size: 18pt;
-	max-width: 600px;
+	max-width: 800px;
 	color: #1954D0;
+	padding: 20px;
+	background-color: white;
+	border: 3px solid #222222;
 }
 
