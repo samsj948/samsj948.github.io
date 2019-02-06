@@ -6,19 +6,42 @@ body{
 	margin-right: 30px;
 	margin-top: 40px;
 	font-size: 12pt;
+	column-count: 2;
+	column-gap: 40px;
+	column-width: 400px;
+}
+
+p {
+	max-width: 400px;
+	padding: 20px;
+	line-height: 18pt;
+}
+
+.button {
+	background-color: #0C294C;
+	border: none;
+	color: #FEFBE7;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 20px;
 }
 
 /*IMAGES*/
 img {
-width: auto;
-height: 500px;
+	width: auto;
+	height: 565px;
+	padding: 30px;
 }
 
 
 /*HEADINGS*/
-.Food{
+.food{
 	font-family: 'Inknut Antiqua', serif;
-	line-height: 10px;
+	line-height: 17px;
+	padding: 20px;
 }
 
 h1 {
@@ -74,15 +97,25 @@ h6 {
 	text-decoration: underline;
 	color: orange;
 }
+/*TRAVEL*/
+.travel {
+	padding: 10px;
+	margin-top: 30px;
+}
 
+
+/*POEM*/
+.poem {
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
 
 /*LINKS*/
 a {
 	text-decoration: none;
 	color: navy;
-	font-family: 'Inknut Antiqua', serif;
 }
 
-a hover{
-
+a:hover{
+	text-decoration: underline;
 }
