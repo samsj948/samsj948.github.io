@@ -43,3 +43,20 @@ p {
 .site {
 	margin-bottom: 260px;
 }
+
+.button {
+	background-color: lightpink;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 20px;
+}
+
+a:hover {
+	color: lightpink;
+	background-color: black;
+}
