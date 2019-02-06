@@ -1,0 +1,51 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #1D4B42;
+}
+
+.blue {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	font-size: 70pt;
+	margin-left: -20px;
+	margin-right: 20px;
+	margin-top: -50px;
+}
+
+h1 {
+	color: #1D4B42;
+	padding: 10px; 
+	font-size: 100%;
+	text-shadow:
+		-1px -1px 0 #E9A6B6,
+		1px -1px 0 #E9A6B6,
+		-1px 1px 0 #E9A6B6,
+		1px 1px 0 #E9A6B6;
+}
+
+h2 {
+	margin-left: -50px;
+	font-size: 25pt;
+}
+
+.icon {
+	height: 70px;
+	width: 70px;
+	padding-left: 20px;
+	padding-right: 10px;
+	
+}
+
+.text {
+	margin-left: 31%;
+	margin-top: 200px;
+	margin-bottom: 105px;
+	height: 100%;
+	margin-right: 70px;;
+	font-size: 11pt;
+	max-width: 400px;
+	color: #E9A6B6;
+	text-align: justify;
+}
+

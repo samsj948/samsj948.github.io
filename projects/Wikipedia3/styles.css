@@ -1,0 +1,49 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #AD9578;
+}
+
+.blue {
+	transform: rotate(-90deg);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	font-size: 40pt;
+	margin-left: -200px;
+	margin-top: 200px;
+}
+
+h1 {
+	color: white;
+	padding: 10px; 
+	font-size: 100%;
+	letter-spacing: 2pt;
+}
+
+h2 {
+	margin-left: 20px;
+	font-size: 25pt;
+}
+
+.icon {
+	height: 70px;
+	width: 70px;
+	padding-left: 20px;
+	padding-right: 10px;
+	
+}
+
+.text {
+	margin-left: auto;
+	margin-top: 50px;
+	margin-right: auto;
+	font-size: 10pt;
+	color: white;
+	width: 950px;
+	text-align: justify;
+	column-count: 2;
+	column-width: 250px;
+	column-gap: 50px;
+	
+}
+
