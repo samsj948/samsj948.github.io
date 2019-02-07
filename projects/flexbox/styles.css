@@ -1,0 +1,79 @@
+body {
+background-color: #fffced;
+}
+/*CENTER*/
+.big {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.one {
+	width: 200px;
+	height: 50px;
+	background-color: #c6af93;
+}
+
+.two {
+	width: 90px;
+	height: 90px;
+	background-color: #af7d59;
+}
+
+.three {
+	width: 170px;
+	height: 100px;
+	background-color: #D58D39;
+}
+
+.four {
+	width: 60px;
+	height: 100px;
+	background-color: #C63C2C;
+}
+
+/*TOP RIGHT*/
+.corner {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	height: 100vh;
+	width: 100vw;
+}
+
+.five {
+	width: 40px;
+	height: 50px;
+	background-color: #e5b934;
+}
+
+.six {
+	width: 80px;
+	height: 130px;
+	background-color: #fce18f;
+}
+
+/*BOTTOM*/
+.bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.seven {
+	width: 20px;
+	height: 79px;
+	background-color: #8bc166;
+}
+
+.eight {
+	width: 23px;
+	height: 63px;
+	background-color: #8ca059;
+}
+
+.nine {
+	width: 22px;
+	height: 75px;
+	background-color: #a8c659;
+}

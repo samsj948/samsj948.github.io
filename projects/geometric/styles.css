@@ -1,0 +1,92 @@
+/*COLORS
+#c7d1af
+#b0d1af
+#d8cfb3
+#b3b9d6
+#848c83
+#3e473d
+*/
+
+/*MIDDLE ROW*/
+.even{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rightone{
+	width: 30px;
+	height: 30px;
+	background-color: #c7d1af;
+	margin: 10px;
+}
+
+.righttwo{
+	width: 30px;
+	height: 30px;
+	background-color: #b0d1af;
+	margin: 10px;
+}
+
+.rightthree{
+	width: 30px;
+	height: 30px;
+	background-color: #848c83;
+	margin: 10px;
+}
+
+.rightfour{
+	width: 30px;
+	height: 30px;
+	background-color: #b3b9d6;
+	margin: 10px;
+}
+
+.rightfive{
+	width: 30px;
+	height: 30px;
+	background-color: #c7d1af;
+	margin: 10px;
+}
+
+.rightsix{
+	width: 30px;
+	height: 30px;
+	background-color: #3e473d;
+	margin: 10px;
+}
+
+/*A LITTLE TO THE LEFT*/
+.round{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.leftone{
+	width: 30px;
+	height: 30px;
+	background-color: #3e473d;
+	border-radius: 50%;
+}
+
+.lefttwo{
+	width: 30px;
+	height: 30px;
+	background-color: #c7d1af;
+	border-radius: 50%;
+}
+
+.leftthree{
+	width: 30px;
+	height: 30px;
+	background-color: #d8cfb3;
+	border-radius: 50%;
+}
+
+.leftfour{
+	width: 30px;
+	height: 30px;
+	background-color: #848c83;
+	border-radius: 50%;
+}
