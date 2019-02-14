@@ -19,7 +19,6 @@
 	margin-left: 70%;
 	display: block;
 	transition: 1s ease-in-out;
-	
 }
 
 .ovaltop:hover{
@@ -37,44 +36,37 @@
 	z-index: 1;
 }
 
-.rightone{
+.small-box {
 	width: 30px;
 	height: 30px;
+}
+
+.rightone{
 	background-color: #c7d1af;
 	margin: 10px;
 }
 
 .righttwo{
-	width: 30px;
-	height: 30px;
 	background-color: #b0d1af;
 	margin: 10px;
 }
 
 .rightthree{
-	width: 30px;
-	height: 30px;
 	background-color: #848c83;
 	margin: 10px;
 }
 
 .rightfour{
-	width: 30px;
-	height: 30px;
 	background-color: #b3b9d6;
 	margin: 10px;
 }
 
 .rightfive{
-	width: 30px;
-	height: 30px;
 	background-color: #c7d1af;
 	margin: 10px;
 }
 
 .rightsix{
-	width: 30px;
-	height: 30px;
 	background-color: #3e473d;
 	margin: 10px;
 }
