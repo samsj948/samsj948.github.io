@@ -14,7 +14,7 @@ body {
 .frame {
   width: 95vw;
   height: 57vw;
-  background: white;
+  background: #f7f7f4;
   margin: 2.5vw auto;
   position: relative;
 }
@@ -33,7 +33,7 @@ body {
 
 .book{
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 }
 
 .book1{
@@ -63,20 +63,310 @@ body {
 	background-color: black;
 	width: 7%;
 	height: 9%;
-	z-index: 3;
+	z-index: 4;
 	top: 68%;
 	left: 34%;
 }
 
+.lens{
+	position: absolute;
+	background-color: black;
+	width: 3%;
+	height: 5.75%;
+	z-index: 4;
+	border: 1px solid #3c3c3c;
+	border-radius: 100%;
+	top: 69%;
+	left: 36%;
+}
+
 .vase{
 	position: absolute;
-	background: rgb(170,170,170);
-	background: linear-gradient(90deg, rgba(170,170,170,0.6153846153846154) 16%, rgba(255,255,255,0.10576923076923073) 50%, rgba(196,196,196,0.53125) 89%);
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	border-radius: 6px;
 	width: 7%;
 	height: 20%;
-	z-index: 1;
+	z-index: 3;
 	top: 55%;
 	left: 42%;
+	background: rgb(133,133,133);
+	background: linear-gradient(90deg, rgba(133,133,133,0.5048543689320388) 16%, rgba(218,218,218,0.6553398058252426) 50%, rgba(142,142,142,0.4854368932038835) 89%);
+}
+
+/*FLOWERS*/
+.stem1{
+	position: absolute;
+	background: #423e1a;
+	width: .75%;
+	height: 24%;
+	z-index: 2;
+	top: 50%;
+	left: 44%;
+}
+
+.stem2{
+	position: absolute;
+	background: #423e1a;
+	width: .75%;
+	height: 24%;
+	z-index: 2;
+	top: 50%;
+	left: 46%;
+	transform: rotate(2deg);
+}
+
+.stem3{
+	position: absolute;
+	background: #423e1a;
+	width: .70%;
+	height: 25%;
+	z-index: 2;
+	top: 49%;
+	left: 47%;
+	transform: rotate(-3deg);
+}
+
+.stem4{
+	position: absolute;
+	background: #423e1a;
+	width: .70%;
+	height: 25%;
+	z-index: 2;
+	top: 49%;
+	left: 43%;
+	transform: rotate(-3deg);
+}
+
+.stem5{
+	position: absolute;
+	background: #423e1a;
+	width: .70%;
+	height: 25%;
+	z-index: 2;
+	top: 49%;
+	left: 48%;
+}
+
+.petal1{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 46%;
+	left: 41.5%;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+.petal2{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 46.5%;
+	left: 43%;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+.petal3{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 44%;
+	left: 46%;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+.petal4{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 45%;
+	left: 45%;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+.petal5{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 42%;
+	left: 43%;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+.petal6{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 47%;
+	left: 47%;
+	border-radius: 100%;
+	z-index: 3;
+}
+.petal7{
+	position: absolute;
+	background: rgb(136,40,180);
+	background: radial-gradient(circle, rgba(136,40,180,1) 0%, rgba(252,70,107,1) 100%);
+	width: 3%;
+	height: 5%;
+	top: 42%;
+	left: 45%;
+	border-radius: 100%;
+	z-index: 2;
+}
+
+/*CLEMENTINES*/
+.clem1{
+	position: absolute;
+	background: rgb(117,68,26);
+	background: linear-gradient(0deg, rgba(117,68,26,1) 0%, rgba(245,149,49,1) 80%);
+	width: 5%;
+	height: 6%;
+	top: 65%;
+	left: 50%;
+	border-radius: 98%;
+	z-index: 3;
+}
+
+.clem2{
+	position: absolute;
+	background: rgb(117,68,26);
+	background: linear-gradient(0deg, rgba(117,68,26,1) 0%, rgba(245,149,49,1) 80%);
+	width: 5%;
+	height: 6%;
+	top: 65%;
+	left: 55.5%;
+	border-radius: 98%;
+	z-index: 3;
+}
+
+.clem3{
+	position: absolute;
+	background: rgb(117,68,26);
+	background: linear-gradient(0deg, rgba(117,68,26,1) 0%, rgba(245,149,49,1) 80%);
+	width: 5%;
+	height: 6%;
+	top: 68%;
+	left: 53%;
+	border-radius: 98%;
+	z-index: 3;
+}
+
+.pitcher{
+	position: absolute;
+	background: rgb(193,175,160);
+	background: linear-gradient(0deg, rgba(193,175,160,1) 0%, rgba(247,236,223,1) 80%);
+	width: 8%;
+	height: 15%;
+	top: 57%;
+	left: 38%;
+	border-top-right-radius: 30%;
+	border-top-left-radius: 30%;
+	z-index: 1;
+}
+
+.spout{
+	position: absolute;
+	background: #f7ecdf;
+	width: 1%;
+	height: 16%;
+	top: 55%;
+	left: 48%;
+	transform: rotate(40deg);
+	z-index: 1;
+}
+
+/*CAT*/
+
+.stomach{
+	position: absolute;
+	background: #f7ecdf;
+	width: 8%;
+	height: 15%;
+	top: 53%;
+	left: 64%;
+	border-radius: 45%;
+	z-index: 2;
+}
+
+.foot1{
+	position: absolute;
+	background: #e2d6c9;
+	width: 4%;
+	height: 7%;
+	top: 62%;
+	left: 64%;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.foot2{
+	position: absolute;
+	background: #e2d6c9;
+	width: 4%;
+	height: 7%;
+	top: 61%;
+	left: 69%;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.cathead{
+	position: absolute;
+	background: #f7ecdf;
+	width: 7%;
+	height: 11%;
+	top: 46%;
+	left: 65%;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.collar{
+	position: absolute;
+	background: #cf4617;
+	width: 6%;
+	height: 2%;
+	top: 55%;
+	left: 65%;
+	border-radius: 40%;
+	z-index: 3;
+}
+
+.arm1{
+	position: absolute;
+	background: #e2d6c9;
+	width: 5%;
+	height: 4%;
+	top: 58%;
+	left: 64%;
+	border-radius: 40%;
+	z-index: 3;
+}
+
+.arm2{
+	position: absolute;
+	background: #e2d6c9;
+	width: 5%;
+	height: 4%;
+	top: 55%;
+	left: 70%;
+	border-radius: 40%;
+	transform: rotate(-40deg);
+	z-index: 1;
 }

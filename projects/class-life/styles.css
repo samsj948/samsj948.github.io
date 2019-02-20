@@ -1,0 +1,45 @@
+/*COLORS
+pink #e018e0
+green #16e21a
+blue #1c76ff
+*/
+
+@font-face {
+	font-family: VTFMisterPixel;
+	src: url(VTFMisterPixel/otf/MisterPixelRegular.otf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: VTFMisterPixel;
+	background: black;
+	color: #e018e0;
+}
+
+h1{
+	font-size: 8em;
+	text-align: center;
+}
+
+.top{
+	position: relative;
+	width: 100%;
+	margin-top: -20px;
+}
+
+.person{
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: 200px;
+	background:  #16e21a;
+	padding: 30px;
+	font-size: 4em;
+	text-align: right;
+}
+
+.person:hover{
+	color: #1c76ff;
+	text-decoration: underline;
+}
