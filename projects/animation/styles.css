@@ -1,0 +1,47 @@
+#yinyang {
+    height: 400px;
+    animation: yinyangSpin 5s ease-in-out infinite;
+    
+}
+
+body{
+background-color: tan;
+}
+
+@keyframes yinyangSpin {
+
+0%{
+	transform: rotate(0turn);
+}
+
+100%{
+	transform: rotate(1turn);
+}
+	
+}
+
+#yinyang:hover{
+animation-play-state: paused;
+}
+
+@keyframes yinyangColor {
+0%{
+	fill: #d2928b;
+}
+100%{
+	fill:  #6d79cd;
+}
+}
+
+#yinyang circle, #yinyang path{
+	animation: yinyangColor 5s ease-in infinite alternate, yinyangOpacity 5s ease-in infinite alternate;
+}
+
+@keyframes yinyangOpacity {
+0%{
+	opacity: 1;
+}
+100%{
+	opacity: 0;
+}
+}

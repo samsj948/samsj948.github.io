@@ -1,0 +1,193 @@
+@keyframes bgColor {
+0%{
+	background-color: #7f9ac6;
+}
+100%{
+	background-color: #b27dc4;
+}
+}
+
+body{
+	animation: bgColor 20s ease-in-out infinite alternate;
+}
+
+#star1{
+	position: relative;
+	top: 70px;
+	left: 20%;
+	height: 30px;
+	animation: starTwinkle 3s ease-in-out infinite alternate;
+}
+
+@keyframes starTwinkle {
+0%{
+	transform: rotate(-20deg)
+}
+
+100%{
+	transform: rotate(20deg)
+}
+}
+
+#star2{
+	position: relative;
+	top: 100px;
+	left: 25%;
+	height: 20px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+
+#moon {
+	position: relative;
+	left: 0;
+	height: 100px;
+	animation: moonMove 30s ease-in-out infinite alternate;
+}
+
+@keyframes moonMove{
+from { top: 200px; left: 0px;}
+to {top: 100px; left: 100%;}
+}
+}
+
+#star3{
+	position: relative;
+	top: 100px;
+	left: 40%;
+	height: 35px;
+	animation: starTwinkle 2s ease-in-out infinite alternate;
+}
+
+#star4{
+	position: relative;
+	top: 700px;
+	left: 30%;
+	height: 25px;
+	animation: starTwinkle 2s ease-in-out infinite alternate;
+}
+#star5{
+	position: relative;
+	top: 600px;
+	left: 75%;
+	height: 35px;
+	animation: starTwinkle 4s ease-in-out infinite alternate;
+}
+#star6{
+	position: relative;
+	top: 300px;
+	left: 70%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star7{
+	position: relative;
+	top: 200px;
+	left: 90%;
+	height: 35px;
+	animation: starTwinkle 3s ease-in-out infinite alternate;
+}
+#star8{
+	position: relative;
+	top: 700px;
+	left: 44%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star9{
+	position: relative;
+	top: 500px;
+	left: 22%;
+	height: 25px;
+	animation: starTwinkle 1.5s ease-in-out infinite alternate;
+}
+#star10{
+	position: relative;
+	top: 100px;
+	left: 70%;
+	height: 20px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star11{
+	position: relative;
+	top: 720px;
+	left: 0%;
+	height: 25px;
+	animation: starTwinkle 3s ease-in-out infinite alternate;
+}
+#star12{
+	position: relative;
+	top: 390px;
+	left: 70%;
+	height: 15px;
+	animation: starTwinkle .5s ease-in-out infinite alternate;
+}
+#star13{
+	position: relative;
+	top: 400px;
+	left: 25%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star14{
+	position: relative;
+	top: 300px;
+	left: 30%;
+	height: 25px;
+	animation: starTwinkle 3s ease-in-out infinite alternate;
+}
+#star15{
+	position: relative;
+	top: -20px;
+	left: 10%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star16{
+	position: relative;
+	top: 700px;
+	left: 50%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star17{
+	position: relative;
+	top: 380px;
+	left: 38%;
+	height: 25px;
+	animation: starTwinkle .7s ease-in-out infinite alternate;
+}
+#star18{
+	position: relative;
+	top: 300px;
+	left: -15%;
+	height: 25px;
+	animation: starTwinkle 2s ease-in-out infinite alternate;
+}
+#star19{
+	position: relative;
+	top: 10px;
+	left: 20%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star20{
+	position: relative;
+	top: 100px;
+	left: -20%;
+	height: 25px;
+	animation: starTwinkle 2s ease-in-out infinite alternate;
+}
+#star21{
+	position: relative;
+	top: 750px;
+	left: 45%;
+	height: 25px;
+	animation: starTwinkle 1s ease-in-out infinite alternate;
+}
+#star22{
+	position: relative;
+	top: 200px;
+	left: 40%;
+	height: 15px;
+	animation: starTwinkle .5s ease-in-out infinite alternate;
+}
