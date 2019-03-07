@@ -8,10 +8,10 @@ overflow-x: hidden;
 .white {
 background-color: white;
 position: relative;
-width: 50vw;
-height: 500px;
+width: 60vw;
+height: auto;
 top: 30px;
-left: 40%;
+left: 30%;
 }
 
 .white2 {
@@ -48,9 +48,20 @@ color: #d12b19;
 }
 
 .pic1 img{
-position: absolute;
+position: relative;
 z-index: 1;
 height: auto;
-width: 800px;
+width: 70vw;
+top: 15px;
+left: 15%;
+}
+
+.pic2 img{
+position: relative;
+z-index: 1;
+height: auto;
+width: 30vw;
+top: 15px;
+left: 2%;
 }
 
