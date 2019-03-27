@@ -1,0 +1,59 @@
+body{
+background-color: black;
+color: white;
+}
+
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: none;
+}
+
+.circle{
+width: 100px;
+height: 100px;
+background-color: white;
+border-radius: 100%;
+margin: 5px;
+}
+
+#hour{
+height: 900px;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 100px;
+height: 100px;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+border-radius: 50%;
+margin: 5px;
+}
+
+#minute{
+height: 900px;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 100px;
+height: 100px;
+background: rgb(58,180,70);
+background: linear-gradient(90deg, rgba(58,180,70,1) 0%, rgba(29,83,253,1) 50%, rgba(202,69,252,1) 100%);
+border-radius: 50%;
+margin: 5px;
+}
+
+#second{
+height: 900px;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 100px;
+height: 100px;
+background: rgb(58,87,180);
+background: linear-gradient(90deg, rgba(58,87,180,1) 0%, rgba(253,29,239,1) 50%, rgba(252,237,69,1) 100%);
+border-radius: 50%;
+margin: 5px;
+}
+
