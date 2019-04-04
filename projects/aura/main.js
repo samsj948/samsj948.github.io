@@ -80,28 +80,28 @@ $(document).ready( function() {
 	var hidenav = $('#hidenav');
 
 	if ( hidenav.length ) {
-		$("#navigation").hide(); //hide your div initially
+		$(".navigation").hide(); //hide your div initially
     var topOfOthDiv = $("#hidenav").offset().top;
     $(window).scroll(function() {
         if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-            $("#navigation").show(); //reached the desired point -- show div
+            $(".navigation").show(); //reached the desired point -- show div
         }
         else{
-            $("#navigation").hide(); //else above the desired point -- hide div
+            $(".navigation").hide(); //else above the desired point -- hide div
         }
     });
 	}
 	
-	var idleTimer;
+//	var idleTimer;
 	
-	$(document).mousemove(function() {
-		clearTimeout(idleTimer);
-		$('body').removeClass('screensaver');
+//	$(document).mousemove(function() {
+//		clearTimeout(idleTimer);
+//		$('body').removeClass('screensaver');
 		
-		idleTimer = setTimeout(function() {
-			console.log('screensaver time');
-			$('body').addClass('screensaver');
-		}, 3000);
-	});
+//		idleTimer = setTimeout(function() {
+//			console.log('screensaver time');
+//			$('body').addClass('screensaver');
+//		}, 3000);
+//	});
 	
 });
