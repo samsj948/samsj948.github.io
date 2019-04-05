@@ -351,8 +351,9 @@ h2{
 }
 
 
-@media (max-width: 650px){
-	body{
+@media (max-width: 1050px){
+/*INDEX*/
+body{
 	background: white;
 	color: #6f32b5;
 	@font-face {font-family: VTFMisterPixel; src: url('VTFMisterPixel/MisterPixelRegular.woff')}
@@ -363,7 +364,7 @@ h2{
 h1 {
 	font-family: helvetica;
 	text-align: center;
-	font-size: 90pt;
+	font-size: 27vw;
 	padding:0;
 	margin: 0;
 	margin-top: 40px;
@@ -416,8 +417,20 @@ h1 {
 	text-align: center;
 	font-size: 16pt;
 }
- 	
- 	
+/*ABOUT PAGE*/	
+ 
+.aboutcontent{
+	width: 100%;
+	height: auto;
+	margin-bottom: 70px;
+	font-size: 20pt;
+}
+	
+ .infobox{
+	width: 100%;
+	height: auto;
+	margin-top: 150px;
+}
  	
  	
 }
