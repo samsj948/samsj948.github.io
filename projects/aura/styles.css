@@ -1,3 +1,9 @@
+	@font-face {
+	font-family: VTFMisterPixel; 
+	src: url('VTFMisterPixel/MisterPixelRegular.woff') format('woff'),
+	url('VTFMisterPixel/MisterPixelRegular.woff') format('woff');
+	}
+
 *, *::before, *::after{
   -webkit-box-sizing:padding-box;
   box-sizing:padding-box;
@@ -356,9 +362,6 @@ h2{
 body{
 	background: white;
 	color: #6f32b5;
-	@font-face {font-family: VTFMisterPixel; src: url('VTFMisterPixel/MisterPixelRegular.woff')}
-	font-family: VTFMisterPixel;
- 	font-size: 16pt;
 }
 
 h1 {
