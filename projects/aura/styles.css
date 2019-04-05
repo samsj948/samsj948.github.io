@@ -225,6 +225,10 @@ a:visited{
 	
 }
 
+.full img{
+	height: 100vh;
+}
+
 .divider{
 	width: 99.75%;
 	margin: 0;
