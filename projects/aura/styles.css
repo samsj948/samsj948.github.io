@@ -40,6 +40,7 @@ p {
 	cursor: url("imgs/pointer.png"), auto !important;;
 	/*transition: all 700ms ease 0s;*/
 	z-index: 350;
+	line-height: 21pt;
 }
 
 .sticky{
@@ -187,8 +188,8 @@ a:visited{
 
 /*NAVIGATION*/
 .icon{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	border: 2px solid #6f32b5;
 	background-color: white;
 }
@@ -350,13 +351,74 @@ h2{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 650px){
 	body{
-	background: blue;
+	background: white;
 	color: #6f32b5;
 	@font-face {font-family: VTFMisterPixel; src: url('VTFMisterPixel/MisterPixelRegular.woff')}
 	font-family: VTFMisterPixel;
  	font-size: 16pt;
 }
+
+h1 {
+	font-family: helvetica;
+	text-align: center;
+	font-size: 90pt;
+	padding:0;
+	margin: 0;
+	margin-top: 40px;
+	color: #6f32b5;
+	background-image: url("imgs/background.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	-webkit-transition: all 1s ease-in-out; 
+    transition: all 1s ease-in-out; 
+}
+
+ 	
+.icon{
+	width: 80px;
+	height: 80px;
+	border: 2px solid #6f32b5;
+	background-color: white;
+}
+
+.icon:hover{
+	border: 2px dashed #0059ff;
+}
+
+
+.button{
+	border: 3px solid #6f32b5;
+	padding: 2vw;
+	font-size: 20pt;
+}
+
+.button:hover{
+	cursor: url("imgs/pointer.png"), auto !important;
+	border: 3px dashed #0059ff;
+}
+
+#wiggles img{
+	width: 120px;
+	height: auto;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	color: #9d86b7;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	bottom: 0;
+	text-align: center;
+	font-size: 16pt;
+}
+ 	
+ 	
+ 	
+ 	
 }
 
