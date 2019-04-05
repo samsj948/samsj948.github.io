@@ -353,7 +353,7 @@ h2{
 
 .aboutcontent{
 	width: 100%;
-	height: 650px;
+	height: 750px;
 }
 
 
@@ -411,7 +411,7 @@ h1 {
 }
 
 .footer{
-	width: 100%;
+	width: 97%;
 	height: auto;
 	color: #9d86b7;
 	margin-top: 20px;
@@ -423,7 +423,7 @@ h1 {
 /*ABOUT PAGE*/	
  
 .aboutcontent{
-	width: 100%;
+	width: 115%;
 	height: auto;
 	margin-bottom: 70px;
 	font-size: 20pt;
@@ -433,6 +433,7 @@ h1 {
 	width: 100%;
 	height: auto;
 	margin-top: 150px;
+	margin-right: 20px;
 }
 
 /*ANSWERS*/
@@ -503,7 +504,7 @@ h1 {
 }
 
 #q8{
-	margin-left: 100px;
+	margin-left: 130px;
 	margin-right: 15px;
 	margin-top: 30px;
 	position: relative;
