@@ -1,4 +1,4 @@
-	@font-face {
+@font-face {
 	font-family: VTFMisterPixel; 
 	src: url('VTFMisterPixel/MisterPixelRegular.woff') format('woff'),
 	url('VTFMisterPixel/MisterPixelRegular.woff') format('woff');
@@ -96,7 +96,7 @@ h1 {
 }
 
 h1:hover{
-	background-image: url("imgs/background.gif");
+	background-image: url("imgs/background-min.gif");
 	background-repeat: np-repeat;
 	background-size: cover;
 /*    background: rgb(111,50,181);
@@ -372,7 +372,7 @@ h1 {
 	margin: 0;
 	margin-top: 40px;
 	color: #6f32b5;
-	background-image: url("imgs/background2.gif");
+	background-image: url("imgs/background-min.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
  	-webkit-background-clip: text;
