@@ -26,9 +26,9 @@ $(function(){
 			console.log(speed, "grey")
 			$('audio#wind2')[0].play()
 		}	
-		var noise1 = document.getElementById("wind1");
-		var noise2 = document.getElementById("wind2");
-		
+// 		var noise1 = document.getElementById("wind1");
+// 		var noise2 = document.getElementById("wind2");
+// 		
 	//	if (speed = 1){
 	//		noise1.play();
 	//	}
