@@ -1,7 +1,7 @@
 $(function(){
 	console.log( "hello");
 	
-	var url = 'http://api.openweathermap.org/data/2.5/weather?q=New+York&appid=bfd82298d00c0642db2963d20318d1a3'
+	var url = 'https://api.openweathermap.org/data/2.5/weather?q=New+York&appid=bfd82298d00c0642db2963d20318d1a3'
 	
 	$.get(url, function(data) {
 		// The get request fires a callback function when the API request finishes
