@@ -1,0 +1,77 @@
+body{
+background: magenta;
+
+
+
+}
+
+.gifs img{
+	position: absolute;
+	filter: saturate(5);
+	 mix-blend-mode: difference;
+	 overflow: hidden;
+	 width: 100vw;
+	
+}
+
+.bar1 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 0px;
+  width: 100%;
+ 
+  
+}
+
+.bar2 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 50px;
+   width: 100%;
+}
+
+.bar3 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 100px;
+   width: 100%;
+}
+
+.bar4 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 150px;
+   width: 100%;
+}
+
+.bar5 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 200px;
+   width: 100%;
+}
+
+.bar6 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 250px;
+   width: 100%;
+}
+
+.bar7 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 300px;
+   width: 100%;
+}
+
+.bar8 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 350px;
+   width: 100%;
+}
+
+.bar9 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 400px;
+   width: 100%;
+}
+
+.bar10 img{
+  clip: rect(0px, 100vw, 50px, 0px);
+  margin-top: 450px;
+   width: 100%;
+}
