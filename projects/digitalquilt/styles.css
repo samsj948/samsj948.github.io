@@ -1,5 +1,6 @@
 body{
 background: magenta;
+margin: 0;
 
 
 
@@ -15,7 +16,7 @@ background: magenta;
 }
 
 .bar1 img{
-  clip: rect(0px, 100vw, 50px, 0px);
+  clip: rect(0px, 100vw, 10vh, 0px);
   margin-top: 0px;
   width: 100%;
  
@@ -23,55 +24,55 @@ background: magenta;
 }
 
 .bar2 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 50px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 10vh;
    width: 100%;
 }
 
 .bar3 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 100px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 20vh;
    width: 100%;
 }
 
 .bar4 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 150px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 30vh;
    width: 100%;
 }
 
 .bar5 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 200px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 40vh;
    width: 100%;
 }
 
 .bar6 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 250px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 50vh;
    width: 100%;
 }
 
 .bar7 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 300px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 60vh;
    width: 100%;
 }
 
 .bar8 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 350px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 70vh;
    width: 100%;
 }
 
 .bar9 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 400px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 80vh;
    width: 100%;
 }
 
 .bar10 img{
-  clip: rect(0px, 100vw, 50px, 0px);
-  margin-top: 450px;
+  clip: rect(0px, 100vw, 10vh, 0px);
+  margin-top: 90vh;
    width: 100%;
 }

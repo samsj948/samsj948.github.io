@@ -1,7 +1,39 @@
 body{
 	background: black;
 	font-family: 'Merriweather Sans', sans-serif;
-	color: grey;
-	font-size: 7vw;
+	color: rgb(218,218,218);
+	font-size: 20px;
+	margin-bottom: 150px;
+}
+
+.story{
+	margin: auto;
+	width: 70%;
+	margin-top: 50px;
+	max-width: 800px;
+}
+
+.word{
+	text-decoration: underline;
+	transition: 0.4s ease-in-out;
+}
+
+.word:hover{
+	color: rgb(249,214,9);
+
+}
+
+h1{
+	padding-top: 20px;
+	color: rgb(249,214,9);
+	font-size: 4vw;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+
+}
+
+.egg{
+	color:rgb(249,214,9);
 
 }
