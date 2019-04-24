@@ -1,0 +1,26 @@
+body{
+	background-color: green;
+	text-align: justify;
+
+}
+
+
+
+
+.full{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 100px;
+	width: 95vw;
+	margin-right: 30px;
+	margin-left: 30px;
+	 -webkit-text-stroke: 3px pink;
+	color: green;
+
+}
+
+.box{
+	color: pink;
+	-webkit-text-stroke: 0px;
+
+}
+

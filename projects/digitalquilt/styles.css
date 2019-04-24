@@ -1,5 +1,5 @@
 body{
-background: magenta;
+background: tan;
 margin: 0;
 
 
@@ -7,26 +7,32 @@ margin: 0;
 }
 
 .gifs img{
-	position: absolute;
-	filter: saturate(5);
-	 mix-blend-mode: difference;
-	 overflow: hidden;
+	/*position: absolute;*/
+	filter: hue-rotate(20deg);
+  filter: sepia(40%);
+	
+	 /*overflow: hidden;*/
 	 width: 100vw;
 	
+}
+
+.startpos img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .bar1 img{
   clip: rect(0px, 100vw, 10vh, 0px);
   margin-top: 0px;
   width: 100%;
- 
-  
+  z-index: 1; 
 }
 
 .bar2 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 10vh;
-   width: 100%;
+  clip: rect(0px, 100vw, 500px, 0px);
+  /*margin-top: 10vh;*/
+  width: 100%;
 }
 
 .bar3 img{
