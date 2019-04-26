@@ -1,17 +1,18 @@
 body{
 background: tan;
 margin: 0;
+}
 
-
+.mountain{
+z-index: 3;
+color: black;
+position: relative;
 
 }
 
 .gifs img{
-	/*position: absolute;*/
 	filter: hue-rotate(20deg);
   filter: sepia(40%);
-	
-	 /*overflow: hidden;*/
 	 width: 100vw;
 	
 }
@@ -20,65 +21,63 @@ margin: 0;
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
 }
 
 .bar1 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
+  clip: rect(0px, 100vw, 100vh, 0px);
   margin-top: 0px;
   width: 100%;
-  z-index: 1; 
+  z-index: 0; 
 }
 
 .bar2 img{
-  clip: rect(0px, 100vw, 500px, 0px);
-  /*margin-top: 10vh;*/
+  clip: rect(10vh, 100vw, 100vh, 0px);
   width: 100%;
+   z-index: 0; 
 }
 
 .bar3 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 20vh;
+  clip: rect(20vh, 100vw, 100vh, 0px);
    width: 100%;
+    z-index: 0;
 }
 
 .bar4 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 30vh;
+  clip: rect(30vh, 100vw, 100vh, 0px);
    width: 100%;
 }
 
 .bar5 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 40vh;
+  clip: rect(40vh, 100vw, 100vh, 0px);
    width: 100%;
 }
 
 .bar6 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 50vh;
+  clip: rect(50vh, 100vw, 100vh, 0px);
    width: 100%;
 }
 
 .bar7 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 60vh;
+  clip: rect(60vh, 100vw, 100vh, 0px);
    width: 100%;
+   z-index: 0;
 }
 
 .bar8 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 70vh;
+  clip: rect(70vh, 100vw, 100vh, 0px);
    width: 100%;
+   z-index: 0;
 }
 
 .bar9 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 80vh;
+  clip: rect(80vh, 100vw, 100vh, 0px);
    width: 100%;
+   z-index: 1;
 }
 
 .bar10 img{
-  clip: rect(0px, 100vw, 10vh, 0px);
-  margin-top: 90vh;
+  clip: rect(90vh, 100vw, 100vh, 0px);
    width: 100%;
+   z-index: 1;
 }

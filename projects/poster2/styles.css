@@ -1,7 +1,7 @@
 body{
 	/*background-color: green;*/
 	text-align: justify;
-	background-image: url(poster1bg.jpg);
+	background-image: url(poster2bg.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -40,14 +40,15 @@ a:hover{
 	text-decoration: none;
 }
 
-
 .next{
  -webkit-text-stroke: 3px white;
 	color: transparent;
+
 }
 .next:hover{
  -webkit-text-stroke: 1px white;
 	color: black;
+
 }
 
 @media (max-width: 800px) {
