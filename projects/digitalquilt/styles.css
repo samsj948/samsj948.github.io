@@ -1,83 +1,91 @@
 body{
-background: tan;
-margin: 0;
+	background: tan;
+	margin: 0;
 }
 
-.mountain{
-z-index: 3;
-color: black;
-position: relative;
 
+.button{
+	z-index: 5;
+	color: black;
+}
+
+.sidebar{
+	background-color: rgba(248, 244, 234, 0.5);
+	height: 100%;
+	width: 20vw;
+	position: fixed;
+	right: 0;
+	padding: 7px;
+	z-index: 5;
 }
 
 .gifs img{
 	filter: hue-rotate(20deg);
-  filter: sepia(40%);
-	 width: 100vw;
-	
+	filter: sepia(40%);
+  	width: 100vw;
 }
 
 .startpos img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+  	height: 100%;
 }
 
 .bar1 img{
-  clip: rect(0px, 100vw, 100vh, 0px);
-  margin-top: 0px;
-  width: 100%;
-  z-index: 0; 
+  	clip: rect(0px, 100vw, 100vh, 0px);
+  	margin-top: 0px;
+  	width: 100%;
+  	z-index: 0; 
 }
 
 .bar2 img{
-  clip: rect(10vh, 100vw, 100vh, 0px);
-  width: 100%;
-   z-index: 0; 
+  	clip: rect(10vh, 100vw, 100vh, 0px);
+  	width: 100%;
+   	z-index: 0; 
 }
 
 .bar3 img{
-  clip: rect(20vh, 100vw, 100vh, 0px);
-   width: 100%;
+  	clip: rect(20vh, 100vw, 100vh, 0px);
+   	width: 100%;
     z-index: 0;
 }
 
 .bar4 img{
-  clip: rect(30vh, 100vw, 100vh, 0px);
-   width: 100%;
+  	clip: rect(30vh, 100vw, 100vh, 0px);
+   	width: 100%;
 }
 
 .bar5 img{
-  clip: rect(40vh, 100vw, 100vh, 0px);
-   width: 100%;
+  	clip: rect(40vh, 100vw, 100vh, 0px);
+   	width: 100%;
 }
 
 .bar6 img{
-  clip: rect(50vh, 100vw, 100vh, 0px);
-   width: 100%;
+  	clip: rect(50vh, 100vw, 100vh, 0px);
+   	width: 100%;
 }
 
 .bar7 img{
-  clip: rect(60vh, 100vw, 100vh, 0px);
-   width: 100%;
-   z-index: 0;
+  	clip: rect(60vh, 100vw, 100vh, 0px);
+   	width: 100%;
+   	z-index: 0;
 }
 
 .bar8 img{
-  clip: rect(70vh, 100vw, 100vh, 0px);
-   width: 100%;
-   z-index: 0;
+  	clip: rect(70vh, 100vw, 100vh, 0px);
+   	width: 100%;
+   	z-index: 0;
 }
 
 .bar9 img{
-  clip: rect(80vh, 100vw, 100vh, 0px);
-   width: 100%;
-   z-index: 1;
+  	clip: rect(80vh, 100vw, 100vh, 0px);
+   	width: 100%;
+   	z-index: 1;
 }
 
 .bar10 img{
-  clip: rect(90vh, 100vw, 100vh, 0px);
-   width: 100%;
-   z-index: 1;
+  	clip: rect(90vh, 100vw, 100vh, 0px);
+   	width: 100%;
+   	z-index: 1;
 }
