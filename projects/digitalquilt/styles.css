@@ -3,20 +3,32 @@ body{
 	margin: 0;
 }
 
-
 .button{
 	z-index: 5;
 	color: black;
 }
 
+.button:hover{
+	text-decoration: underline;
+}
+
+
+
 .sidebar{
-	background-color: rgba(248, 244, 234, 0.5);
+	background-color: #E8DCC8;
 	height: 100%;
-	width: 20vw;
+	width: 17vw;
 	position: fixed;
 	right: 0;
 	padding: 7px;
 	z-index: 5;
+	max-width: 80px;
+	align-items: center;
+}
+
+.sidebar img{
+	max-width:70px;
+	height: auto;
 }
 
 .gifs img{
