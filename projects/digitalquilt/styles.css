@@ -51,23 +51,32 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #D1B48C;
+  background-color: #959ca0;
+  transition: all ease;
 }
+
+/*.one:hover{
+  filter: invert(20%);
+}*/
 
 .two{
   width: 17vw;
   max-width: 80px;
    height: 10vh;
-  background-color: #6E816D;
+  background-color: #13111B;
   z-index: 5;
-  
+  margin-top: 10vh;
+   transition: all  ease;
 }
+/*.two:hover{
+  filter: invert(20%);
+}*/
 
 .three{
   width: 17vw;
   max-width: 80px;
    height: 10vh;
-  background-color: #89775F;
+  background-color: #573117;
 
 }
 
@@ -75,7 +84,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #8FA0A8;
+  background-color: #485760;
 
 }
 
@@ -83,7 +92,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #E1C49D;
+  background-color: #9F6E3F;
  
 }
 
@@ -91,7 +100,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #edd4d0;
+  background-color: #E9D0AC;
  
 }
 
@@ -99,7 +108,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #59583e;
+  background-color: #413E2B;
  
 }
 
@@ -107,7 +116,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #c45e00;
+  background-color: #f4f1eb;
  
 }
 
@@ -115,7 +124,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #f4f1eb;
+  background-color: #47461F;
  
 }
 
@@ -123,7 +132,7 @@ body{
   width: 17vw;
   max-width: 80px;
   height: 10vh;
-  background-color: #3f4959;
+  background-color: #223648;
  
 }
 .gifs img{
