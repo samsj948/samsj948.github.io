@@ -2,7 +2,7 @@
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -82,7 +82,7 @@ $(function(){
 	console.log("digital quilt")
 
 	var getImage = function(term) {
-		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 		$.get(url, function(data) {
 			console.log(data);
@@ -95,6 +95,7 @@ $(function(){
 				img.src = item.images.original.url;
 
 				$('.bar' + (index + 1)).html(img);
+
 			});
 		});
 	};
@@ -105,13 +106,31 @@ $(function(){
 		getImage(term);
 	});
 
+	$('.button').first().trigger('click');
+
+	// $('body').onload(function(load) {
+	// 		var getImage = function(term) {
+	// 	var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+
+	// 	$.get(url, function(data) {
+	// 		console.log(data);
+
+	// 		var img = document.createElement("img");
+	// 		img.src = data.data[1].images.original.url;
+
+	// 		$('.term1-' + term).html(img);
+	// 	});
+	// };
+
+	// });
+
 })
 
 // $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -135,7 +154,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -159,7 +178,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -183,7 +202,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -207,7 +226,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -231,7 +250,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -255,7 +274,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -279,7 +298,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);
@@ -303,7 +322,7 @@ $(function(){
 // 	console.log("digital quilt")
 
 // 	var getImage = function(term) {
-// 		var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
+// 		var url = 'https://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=aAKKbSeY3anXx460GUleGhjnpfjhOHNA&limit=10'
 
 // 		$.get(url, function(data) {
 // 			console.log(data);

@@ -37,11 +37,14 @@ body{
   max-width: 80px;
   height: 10vh;
   align-items: center;
+  position: fixed;
 }
 
 .title img{
-  padding-top: 2.5vh;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .one{
@@ -56,7 +59,8 @@ body{
   max-width: 80px;
    height: 10vh;
   background-color: #6E816D;
-  margin-top: 10vh;
+  z-index: 5;
+  
 }
 
 .three{
@@ -64,7 +68,7 @@ body{
   max-width: 80px;
    height: 10vh;
   background-color: #89775F;
-  margin-top: 10vh;
+
 }
 
 .four{
@@ -72,7 +76,7 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #8FA0A8;
-  margin-top: 10vh;
+
 }
 
 .five{
@@ -80,9 +84,48 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #E1C49D;
-  margin-top: 10vh;
+ 
 }
 
+.six{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #edd4d0;
+ 
+}
+
+.seven{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #59583e;
+ 
+}
+
+.eight{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #c45e00;
+ 
+}
+
+.nine{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #f4f1eb;
+ 
+}
+
+.ten{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #3f4959;
+ 
+}
 .gifs img{
 	filter: hue-rotate(20deg);
 	filter: sepia(40%);
