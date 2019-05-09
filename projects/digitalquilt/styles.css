@@ -20,7 +20,7 @@ body{
 	width: 17vw;
 	position: fixed;
 	right: 0;
-	padding: 7px;
+	padding: 0;
 	z-index: 5;
 	max-width: 80px;
 	align-items: center;
@@ -29,6 +29,58 @@ body{
 .sidebar img{
 	max-width:70px;
 	height: auto;
+  align-items: center;
+}
+
+.title{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  align-items: center;
+}
+
+.title img{
+  padding-top: 2.5vh;
+  align-items: center;
+}
+
+.one{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #D1B48C;
+}
+
+.two{
+  width: 17vw;
+  max-width: 80px;
+   height: 10vh;
+  background-color: #6E816D;
+  margin-top: 10vh;
+}
+
+.three{
+  width: 17vw;
+  max-width: 80px;
+   height: 10vh;
+  background-color: #89775F;
+  margin-top: 10vh;
+}
+
+.four{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #8FA0A8;
+  margin-top: 10vh;
+}
+
+.five{
+  width: 17vw;
+  max-width: 80px;
+  height: 10vh;
+  background-color: #E1C49D;
+  margin-top: 10vh;
 }
 
 .gifs img{
