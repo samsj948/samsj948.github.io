@@ -52,12 +52,12 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #959ca0;
-  transition: all ease;
+  transition: all 400ms ease;
 }
 
-/*.one:hover{
-  filter: invert(20%);
-}*/
+.one:hover{
+    background-color: black;
+}
 
 .two{
   width: 17vw;
@@ -66,18 +66,23 @@ body{
   background-color: #13111B;
   z-index: 5;
   margin-top: 10vh;
-   transition: all  ease;
+   transition: all 400ms ease;
 }
-/*.two:hover{
-  filter: invert(20%);
-}*/
+.two:hover{
+    background-color: black;
+}
 
 .three{
   width: 17vw;
   max-width: 80px;
    height: 10vh;
   background-color: #573117;
+  transition: all 400ms ease;
 
+}
+
+.three:hover{
+    background-color: black;
 }
 
 .four{
@@ -85,7 +90,12 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #485760;
+  transition: all 400ms ease;
 
+}
+
+.four:hover{
+    background-color: black;
 }
 
 .five{
@@ -93,7 +103,11 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #9F6E3F;
- 
+   transition: all 400ms ease;
+}
+
+.five:hover{
+    background-color: black;
 }
 
 .six{
@@ -101,7 +115,11 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #E9D0AC;
- 
+   transition: all 400ms ease;
+}
+
+.six:hover{
+    background-color: black;
 }
 
 .seven{
@@ -109,7 +127,11 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #413E2B;
- 
+   transition: all 400ms ease;
+}
+
+.seven:hover{
+    background-color: black;
 }
 
 .eight{
@@ -117,7 +139,11 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #f4f1eb;
- 
+   transition: all 400ms ease;
+}
+
+.eight:hover{
+    background-color: black;
 }
 
 .nine{
@@ -125,7 +151,11 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #47461F;
- 
+   transition: all 400ms ease;
+}
+
+.nine:hover{
+    background-color: black;
 }
 
 .ten{
@@ -133,7 +163,11 @@ body{
   max-width: 80px;
   height: 10vh;
   background-color: #223648;
- 
+   transition: all 400ms ease;
+}
+
+.ten:hover{
+    background-color: black;
 }
 .gifs img{
 	filter: hue-rotate(20deg);
