@@ -1,0 +1,58 @@
+body{
+background-color: black;
+font-family: "Times New Roman", Times, serif;
+font-size: 30px;
+color: white;
+    cursor: pointer;
+    text-decoration: none;
+margin-left: 50px;
+
+
+}
+/*.container {
+    width: 500px;
+    height: 800px;
+    margin: 8em auto;
+    overflow: visible;
+    position: relative;
+
+}
+
+.slider {
+    top: 1em;
+    position: relative;
+    animation: slider 25s linear infinite;
+}
+
+
+@keyframes slider {
+    0%   { top:   10em }
+    100% { top: -14em }
+}*/
+
+img {
+	width: 45vw;
+	height: auto;
+	object-fit: cover;
+}
+
+.text{
+    vertical-align: text-top;
+    padding-left: 50px;
+}
+
+.grid-container {
+	display: inline-grid;
+	grid-column-gap: 5%;
+	grid-row-gap: 50px;
+	grid-template-columns: auto auto;
+}
+	
+
+.grid-item {
+	padding: 20px;
+	width: 45vw;
+	height:auto;
+	border-style: solid;
+
+}

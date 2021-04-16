@@ -1,0 +1,159 @@
+body{
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0;
+  background-color: #cfc3b4;
+  /*background-image: url("assets/noise.gif");
+  GIF NOT LOOPING*/
+}
+
+/*HEADER WITH BACKGROUND, TITLE, AND GIF*/
+div.header {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: calc(130vw);
+  text-align: center;
+  display: flex;
+  align-items: center; 
+}
+
+div.title {
+  display: inline-flex;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  background-size: calc(110vw);
+  text-align: center;
+  display: flex;
+  align-items: center; 
+}
+
+div.title img{
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 10%;
+  width: auto;
+  height: 28vw;
+  text-align: center;
+  align-items: center; 
+}
+
+.globe {
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center; 
+}
+
+.globe img {
+  position: absolute;
+  display: inline-flex;
+  width: 27vw;
+  height: 27vw;
+  margin: 0 auto;
+  margin-left: 27vw;
+  align-items: center; 
+}
+/*END OF HEADER*/
+
+/*CENTER GLOBE, STICKY IN CENTER AND BUTTON TO THE MENU*/
+div.gutter {
+  display: none; 
+}
+
+div.gutter.mid {
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(50% - 80px);
+  display: block;
+  margin: 0 auto;
+  padding: 4rem 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  width: 6vw;
+  height: 6vw;
+  /*background: url("assets/bluemarbleearth.png") no-repeat 50% 50%;*/
+  /*background-size: calc(30vh - 5rem);*/
+  text-align: center;
+  display: flex;
+  align-items: center; 
+}
+
+div.gutter.mid img {
+  display: block;
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; 
+}
+/*END OF CENTER GLOBE*/
+
+/* DESCRIPTION, CARDS*/
+
+div.card {
+  display: inline-flex;
+  background-image: url("assets/home-written-closed.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  width: 48vw;
+  height: 48vw;
+}
+
+div.card img{
+  display: inline-flex;
+  width: 400px;
+  height: 400px;
+}
+
+
+div.card:hover {
+  display: inline-flex;
+  background-image: url("assets/home-written-open.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  width: 48vw;
+  height: 66vw;
+}
+
+div.beach{
+  display: flex;
+  margin-right: 0;
+  padding-left: 33vw;
+  width: 30vw;
+  height: 100%;
+
+}
+
+div.beach img{
+  display: flex;
+  margin-right: 0;
+  padding-left: 33vw;
+  width: 30vw;
+  height: 100%;
+
+}
+
+div.from{
+  width: 38vw;
+  height: 60vw;
+  padding: 5vw;
+}
+
+h1 {
+  font-size: 3vw;
+  color: #45392a;
+}
+
+
+
