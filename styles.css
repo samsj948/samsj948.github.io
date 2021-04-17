@@ -39,8 +39,8 @@ div.construction img{
 }
 
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
+    and (max-device-width : 415px) 
+    and (max-device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
 
 
