@@ -38,8 +38,15 @@ div.construction img{
 	margin-top: 25vw;
 }
 
-@media screen and (max-width: 897px) {
-	div.construction {
+@media only screen
+
+  and (min-device-width: 414px)
+
+  and (max-device-width: 896px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  div.construction {
 		width: 90vw;
 		height: 90vw;
 		background-size: contain;
@@ -50,8 +57,10 @@ div.construction img{
 	width: 40vw;
 	margin-left: 53vw;
 	margin-top: 45vw;
+	}
 }
-}
+	
+
 
 /*
 img {
