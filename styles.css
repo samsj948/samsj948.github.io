@@ -38,7 +38,7 @@ div.construction img{
 	margin-top: 25vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 897px) {
 	div.construction {
 		width: 90vw;
 		height: 90vw;
