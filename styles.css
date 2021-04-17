@@ -38,6 +38,21 @@ div.construction img{
 	margin-top: 25vw;
 }
 
+@media screen and (max-width: 600px) {
+	div.construction {
+		width: 90vw;
+		height: 90vw;
+		background-size: contain;
+		background-position: left;
+	}
+
+	div.construction img{
+	width: 40vw;
+	margin-left: 53vw;
+	margin-top: 45vw;
+}
+}
+
 /*
 img {
 	width: 300px;
