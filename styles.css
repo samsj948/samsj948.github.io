@@ -38,13 +38,11 @@ div.construction img{
 	margin-top: 25vw;
 }
 
-@media only screen
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
 
-  and (min-device-width: 414px)
-
-  and (max-device-width: 896px)
-
-  and (-webkit-min-device-pixel-ratio: 2) {
 
   div.construction {
 		width: 90vw;
