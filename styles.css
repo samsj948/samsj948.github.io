@@ -44,7 +44,7 @@ div.construction img{
 
   and (max-device-width: 896px)
 
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (-webkit-min-device-pixel-ratio: 2) {
 
   div.construction {
 		width: 90vw;
