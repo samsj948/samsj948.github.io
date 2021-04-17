@@ -1,5 +1,5 @@
 body {
-	background-color: #f7eabe;
+	background-color: #727a40;
 	font-family: 'Josefin Sans', sans-serif;
 	margin: auto;
 	width: 75%;
@@ -19,13 +19,33 @@ h2 {
 	padding-left: 20px;
 }
 
+div.construction {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	background-image:url(assests/imgs/underconstruction.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 50vw;
+	height: 50vw;
+}
+
+div.construction img{
+	width: 30vw;
+	margin-left: 30vw;
+	margin-top: 25vw;
+}
+
+/*
 img {
 	width: 300px;
 	height: 200px;
 	object-fit: cover;
 	padding-bottom: 5px;
 	
-}
+} */
 
 /*.Project {
 	padding-left: 20px;
